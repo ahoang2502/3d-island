@@ -9,7 +9,7 @@ import ContactPage from "./pages/ContactPage";
 
 export default function App() {
 	return (
-		<main className="bg-slate-300/20">
+		<main className="bg-slate-300/20 h-[100%]">
 			<Router>
 				<Navbar />
 				<Routes>
