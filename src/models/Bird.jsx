@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { useFrame } from "@react-three/fiber";
 import { useAnimations, useGLTF } from "@react-three/drei";
 
-import birdScene from "/assets/3d/bird.glb";
+import birdScene from "../assets/3d/bird.glb";
 
 const Bird = () => {
 	const birdRef = useRef();

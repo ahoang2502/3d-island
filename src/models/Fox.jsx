@@ -9,7 +9,7 @@ Title: Fox
 import React, { useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-import foxScene from "/assets/3d/fox.glb";
+import foxScene from "../assets/3d/fox.glb";
 
 export default function Fox({ currentAnimation, ...props }) {
 	const group = useRef();
